@@ -17,13 +17,22 @@ const Nav = () => {
     }
   };
 
+  const handleBole = () => {
+    if (current?.value4?.IsLike) {
+      current.value4.setIslike(false);
+    } else {
+      current?.value4?.setIslike(true);
+    }
+  };
+
   return (
     <>
       <div className={dark == "light" ? style.statelight : style.statedark}>
         <nav className={style.container}>
-          <a>Jobs</a>
-          <a>Loks</a>
-          <a>Love</a>
+          <a onClick={handleBole}>
+            Избранное {current!.value3!.like.items.length}
+          </a>
+
           <button
             className={dark == "light" ? style.statedark : style.statelight}
             onClick={handleClick}

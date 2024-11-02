@@ -45,6 +45,7 @@ const Popup: FC<Props> = ({ id, isModal, onClick }) => {
       ar[num].dopInfo = str2;
       const arey = { items: [{ ar }] } as unknown as Array;
       current?.value2?.setInitialBeans(arey);
+      alert("Отредактировано!");
     } else {
       alert("Заполните все поля!");
     }
@@ -81,7 +82,7 @@ const Popup: FC<Props> = ({ id, isModal, onClick }) => {
       </div>
     </div>,
     //где распологать
-    modalRoot,
+    modalRoot
   );
 };
 

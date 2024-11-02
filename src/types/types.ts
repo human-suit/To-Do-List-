@@ -3,6 +3,7 @@ export type Bean = {
   flavorName: string;
   dopInfo: string;
   isWork: boolean;
+  isLike: boolean;
 };
 export type Array = {
   items: {
@@ -10,6 +11,7 @@ export type Array = {
     flavorName: string;
     dopInfo: string;
     isWork: boolean;
+    isLike: boolean;
   }[];
 };
 export type Ar = {
@@ -17,6 +19,7 @@ export type Ar = {
   flavorName: string;
   dopInfo: string;
   isWork: boolean;
+  isLike: boolean;
 }[];
 export type TextModal = {
   item: {
@@ -31,5 +34,6 @@ export type Props = {
     flavorName: string;
     dopInfo: string;
     isWork: boolean;
+    isLike: boolean;
   }[];
 };

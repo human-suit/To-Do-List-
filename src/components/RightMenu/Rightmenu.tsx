@@ -38,7 +38,7 @@ const RightMenu: FC<Props> = ({ isModal, onClick }) => {
   const handleClikc = () => {
     const str1 = text.item.name;
     const str2 = text.item.info;
-    console.log(str1.length);
+    // console.log(str1.length);
     if (str1.length > 0 && str2.length > 0) {
       const num: number | any = current?.value2?.initialBeans.items.length;
       const ar = {
@@ -46,10 +46,12 @@ const RightMenu: FC<Props> = ({ isModal, onClick }) => {
         flavorName: str1,
         dopInfo: str2,
         isWork: false,
+        isLike: false,
       };
       current?.value2?.initialBeans.items.push(ar);
       const arey: Ar | any = current?.value2?.initialBeans.items;
       current?.value2?.setInitialBeans(arey);
+      alert("Добавлено!");
     } else {
       alert("Заполните все поля!");
     }
@@ -83,7 +85,7 @@ const RightMenu: FC<Props> = ({ isModal, onClick }) => {
       </div>
     </div>,
     //где распологать
-    modalRoot,
+    modalRoot
   );
 };
 

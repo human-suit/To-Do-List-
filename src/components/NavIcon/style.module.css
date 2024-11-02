@@ -46,9 +46,11 @@
 
 @media (max-width: 481px) {
   .container {
-    display: none;
+    position: relative;
   }
   .container li img {
+    position: absolute;
     width: 40px;
+    margin-top: 200px;
   }
 }

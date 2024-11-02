@@ -3,12 +3,12 @@ import style from "./style.module.css";
 import Card from "../Card/Card";
 import { ThemeContex } from "../../App";
 
-const SectionList = () => {
+const ListLike = () => {
   const current = useContext(ThemeContex);
-  const [initialBeans] = useState(current!.value2!.initialBeans!);
+  const [initialBeans] = useState(current!.value3!.like!);
 
   useEffect(() => {
-    current!.value2!.setInitialBeans(initialBeans);
+    current!.value3!.setlike(initialBeans);
   }, [current]);
   return (
     <>
@@ -22,4 +22,4 @@ const SectionList = () => {
   );
 };
 
-export default SectionList;
+export default ListLike;
