@@ -1,0 +1,19 @@
+.logo{
+    width: 140px;
+    display: grid;
+    align-items: center;
+    gap: 20;
+    text-align: center;
+}
+.logo img{
+    width: 100%;
+}
+.logo a{
+    font-size: 21px;
+    letter-spacing: 5px;
+    font-family: "Bear";
+}
+.logo a:hover{
+    cursor: pointer;
+    color: #646cff;
+}

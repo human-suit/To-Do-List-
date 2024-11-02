@@ -1,0 +1,55 @@
+.flex{
+    display: flex;
+}
+.grid{
+    height: 200px;
+    display: grid;
+    gap: 20px;
+}
+.card{
+    color: #96a1a7;
+    max-width: 200px;
+    height: 300px;
+    background-color: rgb(235, 215, 215);
+    border-radius: 10px;
+    padding: 30px 10px;
+    text-align: center;
+    margin-top: 50px;  
+    gap: 20px;
+    z-index: 3;
+}
+.cardTrue{
+    color: #ffffff;
+    max-width: 200px;
+    height: 310px;
+    background-color: rgb(97 177 99);
+    border-radius: 10px;
+    padding: 30px 10px;
+    text-align: center;
+    margin-top: 50px;  
+    gap: 20px;
+    z-index: 3;
+}
+.content{
+    height: 100px;
+    overflow: hidden;
+}
+.content h2{
+    font-size: 18px;
+}
+.content h3{
+    font-size: 18px;
+}
+
+.but{
+    display: grid;
+    gap: 10px;
+}
+.disab{
+    color:#c5cdd1;
+}
+.disab:hover{
+    cursor:default;
+    border: 1px solid transparent;
+    height: 42px;
+}

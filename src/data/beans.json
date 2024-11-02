@@ -1,0 +1,20 @@
+{
+  "totalCount": 2,
+  "pageSize": 2,
+  "currentPage": 1,
+  "totalPages": 1,
+  "items": [
+    {
+      "beanId": 1,
+      "flavorName": "Bro это щит толкинг",
+      "dopInfo": "Выключатель",
+      "isWork":false
+    },
+    {
+      "beanId": 2,
+      "flavorName": "Mамочка прости What все мы D*билы",
+      "dopInfo": "Скриптонит",
+      "isWork":true
+    }
+  ]
+}

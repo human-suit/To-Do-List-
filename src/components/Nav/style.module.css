@@ -1,0 +1,72 @@
+.container{
+    max-width: 500px;
+    display: flex;
+    gap: 0px;
+}
+.container a{
+    font-family: "Bear";
+    font-size: 30px;
+}
+.statedark{
+    background-color: black;
+    color: white;
+}
+.statelight{
+    background: white;
+    color: black;
+}
+
+@media (max-width: 1921px) {
+    .container{
+        max-width: 1000px;
+        gap: 40px;
+    }
+    .container a{
+        font-size: 41px;
+    }
+}
+@media (max-width: 1641px) {
+    .container{
+        max-width: 1000px;
+        gap: 20px;
+    }
+    .container a{
+        font-size: 38px;
+    }
+}
+@media (max-width: 1281px) {
+    .container{
+        max-width: 500px;
+        gap: 10px;
+    }
+    .container a{
+        font-size: 28px;
+    }
+}
+@media (max-width: 821px) {
+    .container{
+        max-width: 500px;
+        gap: 10px;
+    }
+    .container a{
+        font-size: 26px;
+    }
+}
+@media (max-width: 769px) {
+    .container{
+        max-width: 500px;
+        gap: 20;
+    }
+    .container a{
+        font-size: 30px;
+    }
+}
+@media (max-width: 481px) {
+    .container{
+        max-width: 300px;
+        gap: 20;
+    }
+    .container a{
+        font-size: 21px;
+    }
+}
