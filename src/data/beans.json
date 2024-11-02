@@ -8,13 +8,13 @@
       "beanId": 1,
       "flavorName": "Bro это щит толкинг",
       "dopInfo": "Выключатель",
-      "isWork":false
+      "isWork": false
     },
     {
       "beanId": 2,
       "flavorName": "Mамочка прости What все мы D*билы",
       "dopInfo": "Скриптонит",
-      "isWork":true
+      "isWork": true
     }
   ]
 }

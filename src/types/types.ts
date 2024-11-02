@@ -1,35 +1,35 @@
 export type Bean = {
-    beanId: number
-    flavorName: string
-    dopInfo: string
-    isWork: boolean
-}
+  beanId: number;
+  flavorName: string;
+  dopInfo: string;
+  isWork: boolean;
+};
 export type Array = {
-    items: {
+  items: {
     beanId: number;
     flavorName: string;
     dopInfo: string;
     isWork: boolean;
-  }[]
-}
+  }[];
+};
 export type Ar = {
-    beanId: number;
-    flavorName: string;
-    dopInfo: string;
-    isWork: boolean;
-}[]
-export type TextModal={
-    item:{
-      name:string,
-      info:string
-    }
-}
+  beanId: number;
+  flavorName: string;
+  dopInfo: string;
+  isWork: boolean;
+}[];
+export type TextModal = {
+  item: {
+    name: string;
+    info: string;
+  };
+};
 
 export type Props = {
-    items: {
+  items: {
     beanId: number;
     flavorName: string;
     dopInfo: string;
     isWork: boolean;
-  }[]
-}
+  }[];
+};

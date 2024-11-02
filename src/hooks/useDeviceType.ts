@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 
 // enum DeviceType {
 //     MOBILE = "MOBILE",
@@ -6,26 +6,26 @@ import { useEffect, useState } from "react"
 //     DESKTOP = "DESKTOP"
 // }
 
-const useDeviseType = () =>{
-    const[deviseType, setDeviseType] = useState(getDeviceType())
+const useDeviseType = () => {
+  const [deviseType, setDeviseType] = useState(getDeviceType());
 
-    useEffect(()=>{
-        const updateWindowsSize = () => {
-            setDeviseType(getDeviceType)
-        }
-        window.addEventListener("resize", updateWindowsSize)
+  useEffect(() => {
+    const updateWindowsSize = () => {
+      setDeviseType(getDeviceType);
+    };
+    window.addEventListener("resize", updateWindowsSize);
 
-        return () =>{
-            window.removeEventListener("resize", updateWindowsSize)
-        }
-    }, [])
+    return () => {
+      window.removeEventListener("resize", updateWindowsSize);
+    };
+  }, []);
 
-    return deviseType
-}
+  return deviseType;
+};
 
-const getDeviceType = () =>{
-    const width = window.innerWidth
-    return width
-}
+const getDeviceType = () => {
+  const width = window.innerWidth;
+  return width;
+};
 
-export default useDeviseType
+export default useDeviseType;
